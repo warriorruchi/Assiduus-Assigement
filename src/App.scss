@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  --sb-track-color: #1f2223;
+  --sb-thumb-color: #86efac;
+  --sb-size: 5px;
+  
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 4px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+
+.axis.y-axis {
+  visibility: hidden;
+}
+
+.axis.x-axis {
+  path,
+  line {
+    stroke-width: 0;
+  }
+
+  .tick text {
+    font-size: 14px;
+    color: #cbcbcb;
+    font-weight: 400;
+  }
+}
