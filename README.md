@@ -6,7 +6,7 @@ This project replicates a given design using React, incorporating D3.js for char
 
 You can access the deployed assignment web page using the following link:
 
-[Assignment - Responsive Web Design](https://warriorruchi.github.io/Simplotel/)
+[Assignment - Responsive Web Design](https://assiduus-react-task.netlify.app/)
 
 ## Features
 
